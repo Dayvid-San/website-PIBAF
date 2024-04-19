@@ -1,0 +1,125 @@
+@import '/styles/mixins/colors.scss';
+
+.container {
+    transition: 0.3s;
+    background-color: $black-gray-color;
+
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.navbars {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoTipo {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 3%;
+    transition: 0.6s;
+}
+
+.logoTipo:hover{
+    transform: rotate(360deg);
+}
+
+.logoTipo:active {
+    padding: 0 auto;
+    border: solid 8px #000;
+    border-radius: 100px;
+}
+
+.ContainerLogoTipo {
+    position: relative;
+    height: 90%;
+    cursor: pointer;
+    margin: 3%;
+}
+
+.containerSocialMidia {
+    position: relative;
+    width: 18em;
+    height: 4em;
+    margin: 2em;
+
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.socialMidia {
+    position: relative;
+}
+
+.socialMidiaImage{
+    height: 2.3em;
+    transition: 0.2s;
+}
+
+.socialMidiaImage:hover{
+    height: 3em;
+}
+
+.btn {
+    color: $white-color;
+    font-size: 1em;
+}
+
+.btn:hover {
+    color: $aqua-color;
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px){
+    .logoTipo{
+        width: 3.7em;
+        height: 3.7em;
+    }
+    .containerSocialMidia{
+        width: 15em;
+    }
+    .socialMidiaImage{
+        height: 2em;
+    }
+    .btn{
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 750px){
+    .container{
+        height: 9vh;
+    }
+    .logoTipo{
+        width: 3em;
+        height: 3em;
+    }
+    .btn{
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 709px) {
+    .navbars{
+        display: none;
+    }
+    .socialMidia{
+        display: none;
+    }
+}

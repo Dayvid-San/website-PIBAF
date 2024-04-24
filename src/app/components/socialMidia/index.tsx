@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Style from './style.module.scss';
+import Style from './styles.module.scss';
 import Image from 'next/image';
 import Icon from '../../../../public/next.svg';
 

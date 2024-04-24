@@ -2,7 +2,6 @@ import Link from 'next/link';
 import Style from './styles.module.scss';
 import Image from 'next/image';
 import Logo from '../../favicon.ico';
-import Icon from '../../../../public/next.svg';
 import SocialMidia from '../socialMidia';
 
 

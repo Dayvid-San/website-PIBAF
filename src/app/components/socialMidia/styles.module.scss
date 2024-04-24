@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    width: 18em;
+    height: 4em;
+    margin: 2em;
+
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.socialMidia {
+    position: relative;
+}
+
+.socialMidiaImage {
+    height: 2.3em;
+    transition: 0.2s;
+}
+
+.socialMidiaImage:hover {
+    height: 3em;
+}
+
+
+@media (max-width: 900px) {
+    .containerSocialMidia {
+        width: 15em;
+    }
+
+    .socialMidiaImage {
+        height: 2em;
+    }
+}
+
+@media (max-width: 709px) {
+    .socialMidia {
+        display: none;
+    }
+}

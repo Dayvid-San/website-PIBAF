@@ -51,30 +51,7 @@
     margin: 3%;
 }
 
-.containerSocialMidia {
-    position: relative;
-    width: 18em;
-    height: 4em;
-    margin: 2em;
 
-    display: inline-flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-between;
-}
-
-.socialMidia {
-    position: relative;
-}
-
-.socialMidiaImage{
-    height: 2.3em;
-    transition: 0.2s;
-}
-
-.socialMidiaImage:hover{
-    height: 3em;
-}
 
 .btn {
     color: $white-color;
@@ -91,12 +68,6 @@
     .logoTipo{
         width: 3.7em;
         height: 3.7em;
-    }
-    .containerSocialMidia{
-        width: 15em;
-    }
-    .socialMidiaImage{
-        height: 2em;
     }
     .btn{
         font-size: 0.8em;
@@ -117,9 +88,6 @@
 
 @media (max-width: 709px) {
     .navbars{
-        display: none;
-    }
-    .socialMidia{
         display: none;
     }
 }

@@ -1,7 +1,7 @@
-import Styles from 'styles.module.scss';
+import Styles from './styles.module.scss';
 
 
-const Main = () => {
+const MainSection = () => {
     const text = '';
 
     return (
@@ -13,4 +13,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default MainSection;

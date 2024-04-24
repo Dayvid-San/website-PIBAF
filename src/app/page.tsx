@@ -1,4 +1,4 @@
-import { Main } from "next/document";
+import MainSection from "./components/main";
 import Navbars from "./components/navbars";
 import Styles from "./page.module.css";
 
@@ -7,7 +7,7 @@ export default function Home() {
     <div className={Styles.container}>
       <main className={Styles.main}>
         <Navbars />
-        <Main />
+        <MainSection />
       </main>
     </div>
   );
